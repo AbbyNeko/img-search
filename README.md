@@ -1,1 +1,1 @@
-# img-search
+# Image Search
