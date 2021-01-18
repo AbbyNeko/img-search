@@ -1,0 +1,29 @@
+
+h1 {
+    margin-top: 80px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin-top:40px;
+}
+
+#search-btn-div {
+    margin-top:10px;
+}
+
+#search-btn {
+    display: inline-block;
+    color:white;
+}
+
+#search-img {
+    display: inline-block;
+    text-align: center;
+}
+

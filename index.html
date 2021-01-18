@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ImgSearch</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Teko:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">  
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="./public/css/styles.css">
+
+    <title>ImagePickr</title>
 </head>
 <body>
+    <div class="grid-x grid-margin-x">
+        <div class="cell">
+            <h1>ImagePickr</h1>
+        </div>
+    </div>
+
+    <div class="grid-x grid-margin-x">
+        <div class="cell medium-10 large-9 medium-offset-2 large-offset-0">
+            <form>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-10 medium-6 large-5 auto large-offset-5 small-offset-1" >
+                        <input type="text" id="search-img" placeholder="What images are you looking for today?" class="validate"/>
+                    </div>
+
+                    <div class="cell small-10 medium-1 small-offset-1 medium-offset-0" id="search-btn-div">
+                        <input type="button" id="search-btn" class="waves-effect waves-light btn" value="Search">
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
     
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <!-- Foundation JS -->
+     <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+            
+    <script src="public/js/script.js"></script>
 </body>
 </html>
