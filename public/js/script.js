@@ -22,7 +22,7 @@ function searchImg() {
         //clears results if any
         $('#pic-results').text('');
 
-        let url = 'https://api.flickr.com/services/rest?api_key=165ca9e8101be3f19d41beeb4bc2e8c2&format=json&method=flickr.photos.search&safe_search=1&nojsoncallback=1&text='+searchInput;
+        let url = `https://api.flickr.com/services/rest?api_key=165ca9e8101be3f19d41beeb4bc2e8c2&format=json&method=flickr.photos.search&safe_search=1&nojsoncallback=1&text=${searchInput}&tags=${searchInput}`;
 
         $.get(url, function(data) {
 
