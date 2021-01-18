@@ -47,11 +47,11 @@ form {
 #pic-results {
     margin-top:25px;
     display: block;
-    width:90%;
-    margin-left:auto;
+    margin-left:10px;
     margin-right: auto;
     padding:10px;
-    min-width: 80%;
+    min-width: 70%;
+    max-width: 100%;
 }
 
 input {
