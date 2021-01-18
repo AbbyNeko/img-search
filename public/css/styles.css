@@ -27,3 +27,15 @@ form {
     text-align: center;
 }
 
+#search-response {
+    text-align: center;
+}
+
+#pic-results {
+    margin-top:25px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+}
+
