@@ -28,7 +28,7 @@
     <div class="grid-x grid-margin-x">
         <div class="cell medium-10 large-9 medium-offset-2 large-offset-0">
             <!-- Search Form -->
-            <form>
+            <form id="search-form">
                 <div class="grid-x grid-margin-x">
                     <div class="cell small-10 medium-6 large-5 auto large-offset-5 small-offset-1" >
                         <input type="text" id="search-img" placeholder="What images are you looking for today?" class="validate"/>
@@ -45,16 +45,16 @@
         </div>
     </div>
 
-    <div class="grid-x">
         <!-- Results -->
-        <div class="cell" id="pic-results">
-            <p id="search-response"></p>
+        <div class="grid-x grid-margin-x">
+
+            <div class="cell large-10 large-offset-3 small-offset-1 small-10" id="pic-results">
+                <p id="search-response"></p>
+            </div>
 
         </div>
         <!-- End Results -->
-    </div>
     
-
      <!-- Compiled and minified JavaScript -->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
